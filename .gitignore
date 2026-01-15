@@ -1,2 +1,6 @@
-*.tar.gz
-.DS_Store
+*
+!.gitignore
+!*.tar.gz
+!checksums.txt
+!install.sh
+!README.md
