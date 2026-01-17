@@ -1,0 +1,16 @@
+[package]
+name = "agus-planner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+agus-core-domain = { path = "../agus-core-domain" }
+agus-context-engine = { path = "../agus-context-engine" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.11", features = ["json", "stream"] }
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3"
+async-stream = "0.3"
+tokio-stream = { version = "0.1", features = ["sync"] }
+chrono = "0.4"

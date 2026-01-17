@@ -1,0 +1,20 @@
+[package]
+name = "agus-cli"
+version = "0.1.6"
+edition = "2021"
+
+[dependencies]
+agus-cli-core = { path = "../../crates/agus-cli-core" }
+agus-executor = { path = "../../crates/agus-executor" }
+agus-observer = { path = "../../crates/agus-observer" }
+agus-planner = { path = "../../crates/agus-planner" }
+agus-ssh = { path = "../../crates/agus-ssh" }
+agus-storage = { path = "../../crates/agus-storage" }
+agus-secret-store = { path = "../../crates/agus-secret-store" }
+agus-core-domain = { path = "../../crates/agus-core-domain" }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+clap = { version = "4", features = ["derive"] }
+rpassword = "7"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+shell-words = "1"

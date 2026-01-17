@@ -1,0 +1,19 @@
+[workspace]
+members = [
+  "apps/agus-cli",
+  "apps/agus-ui/src-tauri",
+  "crates/agus-cli-core",
+  "crates/agus-core-domain",
+  "crates/agus-secret-store",
+  "crates/agus-ssh",
+  "crates/agus-observer",
+  "crates/agus-planner",
+  "crates/agus-executor",
+  "crates/agus-storage",
+  "crates/agus-cloud",
+  "crates/agus-context-engine",
+  "crates/agus-risk-engine",
+  "crates/agus-workbench-tests",
+  "server-agent",
+]
+resolver = "2"
